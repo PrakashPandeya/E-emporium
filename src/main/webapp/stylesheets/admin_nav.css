@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 10px 5%;
+	box-sizing: border-box;
+	margin: 0;
+	background-color: #d9d9d9;
+	font-family: Poppins, sans-serif;
+}
+
+.logo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	color: #606060;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.logo-img {
+	width: 44px;
+	object-fit: contain;
+}
+
+.logout-btn {
+	padding: 6px 15px;
+	border-radius: 4px;
+	background-color: #a5a5a5;
+	color: #fff;
+	font: 700 16px Poppins, sans-serif;
+	white-space: nowrap;
+	border: none;
+	cursor: pointer;
+}
