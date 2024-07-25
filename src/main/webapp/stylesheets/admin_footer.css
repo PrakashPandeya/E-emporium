@@ -1,0 +1,17 @@
+
+.footer {
+  align-items: center;
+  background-color: #7d7c7c;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.copyright {
+  font-family: Outfit, sans-serif;
+  font-size: 14px;
+  justify-content: center;
+  padding: 5px 0;
+}
