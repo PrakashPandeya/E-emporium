@@ -1,0 +1,161 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
+.bg-filter {
+    width:100vw;
+    min-width: 500px;
+    max-width:100%;
+    height:100vh;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0,0.25);
+    transition:.25s ease-in-out;
+    display:flex;
+    justify-content: center;
+}
+
+
+.sidebar {
+    font-family:Poppins, sans-serif;
+    background-color: white;
+    width:600px;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px 30px;
+    transition: .25s ease-in-out;
+}
+
+
+.sidebar-top {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 0px -3px rgba(0,0,0,0.25);
+    padding:15px 0px;
+}
+
+.sidebar-top p {
+    font-size:25px;
+    font-weight: 750;
+}
+
+.sidebar-bottom {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px -4px 0px -3px rgba(0,0,0,0.25);
+    padding:15px 0px;
+}
+
+.sidebar-bottom button {
+    border:none;
+    background-color: #DB4444;
+    color:white;
+    font-family: Poppins, sans-serif;
+    font-size:20px;
+    border-radius:15px;
+    width:50%;
+    padding:15px 0px;
+    cursor:pointer;
+}
+
+.sidebar-bottom p {
+    font-size:22px;
+    font-weight:500;
+}
+
+.sidebar-content {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: auto;
+    height:100%;
+    padding:20px 0px;
+    min-height:200px;
+}
+
+.sidebar-card {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:95%;
+    height:fit-content;
+    min-height: 100px;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.sidebar-card img {
+    height:100%;
+    width:25%;
+    object-fit:cover;
+    object-position: center;
+}
+
+.sidebar-card .card-text {
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:50%;
+}
+
+.card-text h2 {
+    font-size: 20px;
+}
+
+
+.quantity-slide {
+    overflow: hidden;
+    width: fit-content;
+    height:25px;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+}
+
+.quantity-slide input::-webkit-outer-spin-button,
+.quantity-slide input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin:0;
+}
+
+.quantity-slide input {
+    height:100%;
+    width:40px;
+    text-align: center;
+    font-size: medium;
+}
+
+.quantity-slide button {
+    height:100%;
+    border:none;
+    background-color: #DB4444;
+    color:white;
+    cursor: pointer;
+    width:30px;
+    font-size: large;
+}
+
+.remove-card {
+    height:100%;
+    width:10%;
+    border:none;
+    font-size: large;
+    transition: .25s;
+    cursor:pointer;
+}
+
+.remove-card:hover {
+    background-color: #DB4444;
+    color:white;
+}
