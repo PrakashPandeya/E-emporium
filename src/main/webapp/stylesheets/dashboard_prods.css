@@ -1,0 +1,128 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75vw;
+  padding: 30px 60px;
+  gap:30px;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  height:50px;
+}
+
+
+.add-product-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #0048ff;
+  height:90%;
+  padding:0 20px;
+  gap: 6px;
+  font: 24px Poppins, sans-serif;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.add-product-btn:hover {
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
+.add-product-icon {
+  width: 22px;
+}
+
+.search-bar {
+  display:flex;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+  background-color: #D9D9D9;
+  border-radius: 20px;
+  height: 90%;
+  width:50%;
+}
+
+.search-bar img {
+  width:15%;
+  height:60%;
+}
+
+.search-bar input {
+  border: none;
+background: none;
+height: fit-content;
+width: 75%;
+outline: none;
+font-family: Poppins, sans-serif;
+font-size: medium;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #d9d9d9;
+  width: 100%;
+  padding: 16px 40px;
+}
+
+
+.product-list-title {
+  color: #0048ff;
+  font: 700 44px Poppins, sans-serif;
+}
+
+.actual-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap:10px;
+  align-items: left;
+  width: 100%;
+  max-height:400px;
+  padding: 20px 0px;
+  overflow: auto;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.product-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a5a5a5;
+  border-radius: 50%;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  font: 16px Poppins, sans-serif;
+}
+
+.product-name {
+  color: #000;
+  font: 20px Poppins, sans-serif;
+  text-decoration: none;
+}
+
+.product-name:hover {
+  text-decoration: underline;
+}
