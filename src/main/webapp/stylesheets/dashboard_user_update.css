@@ -1,0 +1,116 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 75vw;
+    padding: 30px 60px;
+    gap:40px;
+    overflow: auto;
+}
+
+.go-back {
+    text-decoration: none;
+    background-color: #d9d9d9;
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font:20px Poppins, sans-serif;
+    padding:7px 30px;
+    border-radius: 10px;
+}
+
+.go-back:hover {
+    text-decoration: underline;
+}
+
+.form-container {
+    width: auto;
+    background: #d9d9d9;
+    padding: 20px 40px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 10px;
+    font-family: Poppins, sans-serif;
+}
+
+.form-title {
+    color: #0048ff;
+    font: 700 44px Poppins, sans-serif;
+}
+
+.user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+
+.user-details .input-box {
+    width:45%;
+    display:flex;
+    flex-direction: column;
+}
+
+.user-details span{
+    font-weight: 500;
+}
+.gender-radios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    width:auto;
+}
+
+.user-details .input-box input, .user-details .input-box select, .user-details .input-box textarea {
+    height: 45px;
+    width: auto;
+    outline: none;
+    border-radius: 5px;
+    border:none;
+    padding:0 15px ;
+    font-size: 16px;
+}
+
+.user-details .input-box input::-webkit-inner-spin-button, .user-details .input-box input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin:none;
+}
+
+.user-details .input-box img {
+    width:100%;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.user-details .input-box textarea {
+    padding:7px 15px ;
+    resize: vertical;
+}
+
+.form-action {
+    width:45%;
+}
+.form-buttons {
+    width:45%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-buttons button {
+    background-color: #0048ff;
+    color:white;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    cursor:pointer;
+    width:45%;
+    height:50px;
+    font-size:Large;
+    font-family: Poppins, sans-serif;
+}
