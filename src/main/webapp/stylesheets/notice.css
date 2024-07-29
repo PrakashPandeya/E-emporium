@@ -1,0 +1,55 @@
+.message-box {
+    min-width: 350px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 0px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-family: Poppins, sans-serif;
+}
+
+.message-box button {
+    padding: 10px 0px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0048ff;
+    color:white;
+}
+
+.notice-field {
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    justify-content: flex-start;
+}
+
+.notice-field input {
+    width:100%;
+}
+
+.notice{
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index:100;
+    top:0;
+    left:0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-box p{
+    text-wrap: wrap;
+    font-size: large;
+    width: 70%;
+}
