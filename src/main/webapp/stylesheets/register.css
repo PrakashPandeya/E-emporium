@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    width: 100vw;
+    height:100vh;
+    padding:0 30px;
+    flex-wrap: wrap;
+}
+
+.column {
+    width:40%;
+    min-width: 375px;
+
+}
+
+.form-container {
+    width: auto;
+    min-width:400px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 10px;
+    font-family: Poppins, sans-serif;
+}
+
+.form-title {
+    font: 700 44px Poppins, sans-serif;
+}
+
+.user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+
+.user-details .input-box {
+    width:45%;
+    display:flex;
+    flex-direction: column;
+}
+
+.user-details span{
+    font-weight: 500;
+}
+.gender-radios {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:5px;
+    width:auto;
+}
+
+.user-details .input-box input, .user-details .input-box select, .user-details .input-box textarea {
+    height: 45px;
+    width: auto;
+    outline: none;
+    border-radius: 5px;
+    border:2px solid black;
+    padding:0 15px ;
+    font-size: 16px;
+}
+
+.user-details .input-box textarea {
+    padding:7px 15px ;
+    resize: vertical;
+}
+
+.form-action {
+    width:45%;
+}
+.form-buttons {
+    width:45%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-button {
+    background-color: #c2c7ff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    cursor:pointer;
+    width:45%;
+    height: 45px;
+    font-size:medium;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
