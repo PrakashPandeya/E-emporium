@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Hero section  */
+#hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    font-family:Poppins, sans-serif;
+}
+
+#hero h2,p{
+    color: white;
+    font-family:Poppins, sans-serif;
+}
+
+#hero h2{
+    margin-top: 140px;
+    font-size: 48px;
+}
+
+#hero p{
+    font-weight:300;
+    color: white;
+}
+
+@media only screen and (min-width: 400px) {
+    #hero h2 {
+        margin-top: 200px;
+        font-size: 16px;
+    }
+
+    #hero p {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #hero h2 {
+        font-size: 24px;
+    }
+
+    #hero p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #hero {
+        width: 100%;
+    }
+
+    #hero h2 {
+        font-size: 36px;
+        margin-top: 150px;
+
+    }
+
+    #hero p {
+        font-size: 16px;
+    }
+}
+
+#ceo {
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    margin-top: -40px;
+    background-color: white;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-around;
+    font-family:Poppins, sans-serif;
+}
+
+#txt {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center; 
+}
+
+#ceophoto img {
+    width: 100%;
+    max-width: 300px;
+}
+
+#ceo h2 {
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+#txt h2,
+#txt p {
+    font-family:Poppins, sans-serif;
+    color: black;
+    margin-bottom: 40px;
+}
+
+#txt h2 {
+    margin-bottom: 28px;
+}
+
+#txt p:nth-of-type(3) {
+    font-weight: bolder;
+}
+
+#txt img {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    #ceo {
+        flex-direction: row;
+    }
+
+    #txt {
+        width: 50%;
+    }
+
+    #ceophoto img {
+        width: auto;
+        max-width: none;
+    }
+
+    #nigs {
+        margin-top: 0;
+    }
+
+    #txt img {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #ceo {
+        width: 50%;
+    }
+}
+
+#meet {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Center align content */
+    font-family:Poppins, sans-serif;
+}
+
+#meet h2, #meet p {
+    font-family:Poppins, sans-serif;
+}
+
+#meet p {
+    color: #606060;
+}
+
+#meet h2 {
+    color: black;
+}
+
+@media only screen and (min-width: 768px) {
+    /* Adjust layout for medium-sized screens */
+    #meet {
+        width: 60%; /* Adjust width for medium screens */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Adjust layout for large screens */
+    #meet {
+        width: 50%; /* Adjust width for large screens */
+    }
+}
+
+#box5 {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#box5 .personas {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#box5 .personas img {
+    width: 100%;
+    height: auto;
+}
+
+#box5 .personas h3, #roles {
+    font-family:Poppins, sans-serif;
+}
+
+#box5 .personas h3 {
+    margin-bottom: 10px;
+}
+
+#box5 .personas p{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#roles{
+    color: #0048FF;
+}
+
+@media only screen and (min-width: 768px) {
+    #box5 .personas {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #box5 .personas {
+        width: 20%;
+    }
+}
