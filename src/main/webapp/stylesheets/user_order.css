@@ -1,0 +1,168 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    max-width: 100%;
+    padding: 30px 60px;
+    gap:40px;
+    overflow: auto;
+}
+
+.go-back {
+    text-decoration: none;
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font:20px Poppins, sans-serif;
+    padding:7px 30px;
+    border-radius: 7px;
+    transition:.25s ease-in-out;
+}
+
+.go-back:hover {
+    color:white;
+    background-color: #DB4444;
+}
+
+.form-container {
+    width: auto;
+    background: #d9d9d9;
+    width:100%;
+    min-width: 600px;
+    padding: 20px 40px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 10px;
+    font-family: Poppins, sans-serif;
+}
+
+.form-title {
+    color: black;
+    font: 700 44px Poppins, sans-serif;
+}
+
+.user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+
+.user-details .input-box {
+    width:45%;
+    display:flex;
+    flex-direction: column;
+}
+
+.user-details span{
+    font-weight: 500;
+}
+
+.user-details .input-box input, .user-details .input-box select, .user-details .input-box textarea {
+    height: 45px;
+    width: auto;
+    outline: none;
+    border-radius: 5px;
+    border:none;
+    padding:0 15px ;
+    font-size: 16px;
+}
+
+.user-details .input-box input::-webkit-inner-spin-button, .user-details .input-box input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin:none;
+}
+
+.user-details .input-box img {
+    width:100%;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.user-details .input-box textarea {
+    padding:7px 15px ;
+    resize: vertical;
+}
+
+.form-action {
+    width:45%;
+}
+.form-buttons {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-buttons button {
+    background-color: #db4444;
+    color:white;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    cursor:pointer;
+    width:45%;
+    height:50px;
+    font-size:Large;
+    font-family: Poppins, sans-serif;
+}
+
+.message-box {
+    min-width: 350px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 0px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-family: Poppins, sans-serif;
+}
+
+.message-box button {
+    padding: 10px 0px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #db4444;
+    color:white;
+}
+
+.notice{
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top:0;
+    left:0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-box p{
+    text-wrap: wrap;
+    font-size: large;
+    width: 70%;
+}
+
+.ProductList {
+    width:100%;
+    text-align: justify;
+    border-collapse: collapse;
+}
+
+.ProductList th, .ProductList tr, .ProductList td {
+    border-bottom:1px solid #8b8b8b;
+    padding:7px 0;
+}
